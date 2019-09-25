@@ -4,5 +4,5 @@ module.exports = function(app) {
 
   // todoList Routes
   app.route('/get-pattern')
-    .get(apiController.getPattern);
+    .post(apiController.getPattern);
 };
