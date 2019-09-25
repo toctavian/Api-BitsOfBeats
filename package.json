@@ -1,0 +1,23 @@
+{
+  "name": "bitsofbeats-api",
+  "version": "1.0.0",
+  "description": "The API server for BitsOfBeats",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "debug": "node --nolazy --inspect-brk=9229 server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Octavian Taranu-Toma",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "dependencies": {
+    "@magenta/music": "^1.11.1",
+    "@tensorflow/tfjs-node": "^1.2.9",
+    "express": "^4.17.1",
+    "node": "^12.10.0",
+    "tone": "^13.8.25"
+  }
+}
